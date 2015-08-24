@@ -14,6 +14,9 @@ def ever_the_same():
     return "all one"
 
 
+noted_weed = "i %s n %s v %s e %s n %s t %s i %s o %s n"
+noted_weed % ("-", "-", "-", "-", "-", "-", "-", "-")
+
 my_verse = """
 
     .....
