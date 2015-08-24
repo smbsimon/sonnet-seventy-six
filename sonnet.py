@@ -10,6 +10,9 @@ def the_time():
 	    else:
 	        print "compounds strange"
 
+def ever_the_same():
+    return "all one"
+
 
 my_verse = """
 
