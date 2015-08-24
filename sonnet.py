@@ -5,7 +5,10 @@ seconds = year.total_seconds()
 
 def the_time():
 	for i in range(int(seconds)):
-	    print i
+	    if i <= 15768000:
+	        print "new-found methods"
+	    else:
+	        print "compounds strange"
 
 
 my_verse = """
