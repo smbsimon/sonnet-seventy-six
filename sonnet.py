@@ -1,3 +1,4 @@
+import sys
 from datetime import timedelta
 
 year = timedelta(days=365)
@@ -65,3 +66,5 @@ my_verse = """
         .variation or quick change.
 
 """
+
+print sys.path
