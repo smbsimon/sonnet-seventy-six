@@ -1,6 +1,7 @@
 import sys
 from sys import argv
 from datetime import timedelta
+from string import maketrans
 
 script, you, love = argv
 
@@ -19,6 +20,13 @@ def ever_the_same():
 
 def every_word():
 	return "you"
+
+w0 = "bmy"
+w1 = "rth"
+new_words = maketrans(w0, w1)
+
+verse = "all my best" # dressing old words new, and that lost 'e' -- eschew
+print verse.translate(new_words)
 
 print "and %s and %s are still my argument;" % (you, love)
 
