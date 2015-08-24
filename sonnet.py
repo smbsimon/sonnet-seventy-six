@@ -8,6 +8,11 @@ script, you, love = argv
 year = timedelta(days=365)
 seconds = year.total_seconds()
 
+daily_new_and_old = ["sun", "moon", "old", "new"]
+
+while len(daily_new_and_old) >= 1:
+    print "sun is, moon is, old is, new is: ", daily_new_and_old
+
 def the_time():
 	for i in range(int(seconds)):
 	    if i <= 15768000:
