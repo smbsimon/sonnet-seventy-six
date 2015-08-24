@@ -21,11 +21,11 @@ def ever_the_same():
 def every_word():
 	return "you"
 
-w0 = "bmy"
-w1 = "rth"
+w0 = "sp"
+w1 = "b-"
 new_words = maketrans(w0, w1)
 
-verse = "all my best" # dressing old words new, and that lost 'e' -- eschew
+verse = "spending again" # bending again
 print verse.translate(new_words)
 
 print "and %s and %s are still my argument;" % (you, love)
