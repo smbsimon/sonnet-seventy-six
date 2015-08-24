@@ -15,8 +15,7 @@ def ever_the_same():
     return "all one"
 
 def every_word():
-    my_name = "sara"
-    return "almost " + my_name
+	return "you"
 
 
 noted_weed = "i %s n %s v %s e %s n %s t %s i %s o %s n"
