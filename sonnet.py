@@ -1,5 +1,8 @@
 import sys
+from sys import argv
 from datetime import timedelta
+
+script, you, love = argv
 
 year = timedelta(days=365)
 seconds = year.total_seconds()
@@ -17,6 +20,7 @@ def ever_the_same():
 def every_word():
 	return "you"
 
+print "and %s and %s are still my argument;" % (you, love)
 
 noted_weed = "i %s n %s v %s e %s n %s t %s i %s o %s n"
 noted_weed % ("-", "-", "-", "-", "-", "-", "-", "-")
